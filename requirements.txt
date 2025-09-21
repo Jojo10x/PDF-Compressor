@@ -1,0 +1,15 @@
+# PDF Compressor Requirements - Advanced Image Optimization
+# Install with: pip install -r requirements.txt
+
+# Primary PDF library with image extraction capabilities
+PyMuPDF>=1.23.0
+
+# Image processing and optimization
+Pillow>=10.0.0
+
+# Alternative PDF compression libraries (fallbacks)
+pikepdf>=8.0.0
+pypdf>=4.0.0
+
+# Note: PyMuPDF is the main library for extracting and optimizing images in PDFs
+# Pillow handles the actual image compression and resizing
